@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,400&display=swap" rel="stylesheet">
+    <title>Cadastro de imóvel</title>
+</head>
+<body>
+  
+    <form action="" method="get">
+      <h1>Cadastre seu imóvel</h1>  
+    <div class="box">
+      <label><strong>
+        Tipo de imóvel
+    </strong></label>
+    <br><br>
+         <input type="radio" name="tipo-imóvel" id="type">
+       <label>APARTAMENTO</label> 
+        <input type="radio" name="tipo-imóvel" id="type">
+        <label> CASA</label> 
+        <input type="radio" name="tipo-imóvel" id="type">
+        <label></label>TERRENO</label> 
+        <br>
+        <br>
+        </div>
+            <label><strong>Dados do imóvel<strong></label><br>
+            <br>
+            <div class="box2"></div>
+            <label for="cep">Cep</label>
+            <br>
+            <input autocomplete="number" placeholder="Digite o cep"/>
+            <br>
+            <label for="bairro">Bairro</label>
+            <br>
+            <input disabled/>
+            <br>
+            <label for="endereço">Endereço</label>
+            <br>
+            <input disabled />
+            <br>
+            <label for="number">Número</label>
+            <br>
+            <input type="text" id="número" name="número"/>
+            <br>
+            <label for="áreatotal">Área Total</label>
+            <br>
+            <input  type="text" id="tamanho"/>
+            <br>
+            <label for="cidade">Cidade</label>
+            <br>
+            <input type="text">
+            
+        </div>
+     </form>
+
+<style>
+    *{
+        
+        background-color: #f7f7f7;
+        font-family: 'Roboto', sans-serif;
+        text-align: justify;
+       }
+
+    h1 {
+        font-style: italic;
+        font-size: 50px;
+
+    }
+    form {
+    width: 40%;
+    min-width: 350px;
+  
+    }
+    .box {
+        font-size: 20px;
+    }
+    .box2 {
+        font-size: 20px;
+    }
+    label {
+      
+        font-weight: lighter;
+        color: rgb(15, 15, 98);
+    }
+   
+    input {
+    font-size: 35px;
+    margin:  6px 0 6px 0;
+    border-radius: 5px;
+    }
+
+</style>
+</body>
+</html>
